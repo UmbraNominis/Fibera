@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: "Manrope";
-    src: url("/Resources/Fonts/Manrope-VariableFont_wght.ttf");
+    src: url("Resources/Fonts/Manrope-VariableFont_wght.ttf");
 }
 
 * {
