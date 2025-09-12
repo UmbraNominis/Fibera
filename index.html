@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibera</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <a class="header__title" href="#">Fibera</a>
+        <nav class="header__links">
+            <a class="header__link" href="#">Link</a>
+            <a class="header__link" href="#">Link</a>
+            <a class="header__link" href="#">Link</a>
+            <a class="header__link" href="#">Link</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero__gradient"></div>
+        <img class="hero__background" src="/hero.webp">
+        <h1 class="hero__heading">Оптичен Интернет и Телевизия</h1>
+    </section>
+
+    <section class="services">
+
+        <article class="service">
+            <h2 class="service__title">Basic</h2>
+            <p class="service__desc">1mbps</p>
+            <p class="service__desc">10 channels</p>
+            <p class="service__desc">...</p>
+            <button class="service__btn" onclick="toggle()">Light / Dark Mode</button>
+        </article>
+
+        <article class="service">
+            <h2 class="service__title">Plus</h2>
+            <p class="service__desc">10mbps</p>
+            <p class="service__desc">100 channels</p>
+            <p class="service__desc">...</p>
+            <button class="service__btn" onclick="toggle()">Light / Dark Mode</button>
+        </article>
+
+        <article class="service">
+            <h2 class="service__title">Pro</h2>
+            <p class="service__desc">1mbps</p>
+            <p class="service__desc">1000 channels</p>
+            <p class="service__desc">...</p>
+            <button class="service__btn" onclick="toggle()">Light / Dark Mode</button>
+        </article>
+
+    </section>
+
+    <footer class="footer">
+        <h3 class="footer__text">Fibera © 2025 Всички права запазени</h3>
+    </footer>
+</body>
+<script>
+
+    const body = document.querySelector('body');
+
+    function toggle() {
+        if (body.style.getPropertyValue("color-scheme") === "dark")
+        {
+            body.style.setProperty("color-scheme", "light");
+        } else {
+            body.style.setProperty("color-scheme", "dark");
+        };
+            
+    }
+</script>
+</html>
