@@ -15,9 +15,8 @@
 
     --hero-gradient: light-dark(hsla(0, 0%, 20%, 0.45), hsla(0, 0%, 0%, 0.5));
 
-    --headline: 2.5rem;
-    --secheadline: 1.8rem;
-    --terheadline: 1.5rem;
+    --headline: 3rem;
+    --secheadline: 1.5rem;
     --body: 1rem;
     --supporting: .875rem;
 }
@@ -69,9 +68,10 @@ body {
     }
 
     & .header__link {
-        font-size: var(--terheadline);
+        font-size: var(--body);
         text-decoration: none;
         color: var(--text);
+        font-weight: 600;
     }
 }
 
