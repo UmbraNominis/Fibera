@@ -1,22 +1,22 @@
 :root {
     color-scheme: light dark;
 
-    --primary-color: light-dark(hsl(181 63% 42%), hsl(176 72% 25%));
-    --accent-color: light-dark(hsl(176 72% 25%), hsl(181 63% 42%));
+    --primary-color: hsl(176 72% 25%); /*hsl(181 63% 42%)*/
+    --accent-color: hsl(181 63% 42%); /*hsl(176 72% 25%)*/
 
-    --bg-dark: light-dark(hsl(0 0% 90%), hsl(0 0% 0%));
-    --bg: light-dark(hsl(0 0% 95%), hsl(0 0% 5%));
-    --bg-light: light-dark(hsl(0 0% 100%), hsl(0 0% 10%));
+    --bg-dark: hsl(0 0% 0%); /*hsl(0 0% 90%)*/
+    --bg: hsl(0 0% 5%); /*hsl(0 0% 95%)*/
+    --bg-light: hsl(0 0% 10%); /*hsl(0 0% 100%)*/
 
-    --text: light-dark(hsl(0 0% 5%), hsl(0 0% 95%));
-    --text-muted: light-dark(hsl(0 0% 30%), hsl(0 0% 70%));
-    --text-hero: light-dark(hsl(0 0% 95%), hsl(0 0% 95%));
+    --text: hsl(0 0% 95%); /*hsl(0 0% 5%)*/
+    --text-muted: hsl(0 0% 70%); /*hsl(0 0% 30%)*/
+    --text-hero: hsl(0 0% 95%); /*hsl(0 0% 95%)*/
 
-    --border: light-dark(hsl(0 0% 30%), hsl(0 0% 30%));
+    --border: hsl(0 0% 30%); /*hsl(0 0% 30%)*/
     --shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.07), 0px 4px 4px hsla(0, 0%, 0%, 0.15);
     --shadow-header: 0px 4px 2px hsla(0, 0%, 0%, 0.07), 0px 8px 4px hsla(0, 0%, 0%, 0.15);
 
-    --hero-gradient: light-dark(hsla(0, 0%, 20%, 0.45), hsla(0, 0%, 0%, 0.5));
+    --hero-gradient: hsla(0, 0%, 0%, 0.5); /*hsla(0, 0%, 20%, 0.45)*/
 
     --headline: clamp(2rem, 1.8284rem + 0.7323vw, 3rem);
     --secheadline: 1.5rem;
