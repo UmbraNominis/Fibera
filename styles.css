@@ -22,6 +22,8 @@
     --secheadline: 1.5rem;
     --body: 1rem;
     --supporting: .875rem;
+
+    --border-radius: 10px;
 }
 
 @font-face {
@@ -117,18 +119,19 @@ body {
 
 .services {
     display: flex;
-    justify-content: center;
-    padding: 0.5rem;
-    padding-top: 2rem;
-    gap: 1rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-block: 2rem;
+    padding-inline: 1rem;
+    gap: 5rem;
 }
 
 .service {
-    min-width: 10vw;
-    min-height: 10vh;
-    padding: 0.5rem;
+    flex: 0 1 20rem;
+    padding-block: 1rem;
+    padding-inline: 5rem;
     background-color: var(--bg);
-    border-radius: 10%;
+    border-radius: var(--border-radius);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -152,7 +155,7 @@ body {
         font-size: var(--body);
         text-decoration: none;
         font-weight: 600;
-        border-radius: 0.5rem;
+        border-radius: var(--border-radius);
         border: none;
         cursor: pointer;
         box-shadow: var(--shadow);
