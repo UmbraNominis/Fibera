@@ -114,6 +114,7 @@ body {
     & .hero__heading {
         font-size: var(--headline);
         color: var(--text-hero);
+        text-align: center;
     }
 }
 
