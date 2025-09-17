@@ -97,7 +97,7 @@ body {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            transition: 1s;
+            transition: .4s;
             touch-action: none;
 
             &.open {
@@ -124,7 +124,7 @@ body {
             height: .1rem;
             background-color: var(--accent-color);
             border-radius: var(--border-radius);
-            transition: 0.5s;
+            transition: .4s;
 
             &:nth-child(1) {
                 top: 50%;
