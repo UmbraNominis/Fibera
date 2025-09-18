@@ -18,8 +18,9 @@
 
     --hero-gradient: hsla(0, 0%, 0%, 0.5); /*hsla(0, 0%, 20%, 0.45)*/
 
-    --headline: clamp(2rem, 1.8284rem + 0.7323vw, 3rem);
-    --secheadline: 1.5rem;
+    --heading: clamp(2rem, 1.8284rem + 0.7323vw, 3rem);
+    --subheading: 1.5rem;
+    --highlight: 1.125rem;
     --body: 1rem;
     --supporting: .875rem;
 
@@ -62,9 +63,9 @@ body {
     box-shadow: var(--shadow);
 
     & .header__logo {
-        font-size: var(--secheadline);
+        font-size: var(--subheading);
         width: auto;
-        height: var(--headline);
+        height: var(--heading);
     }
 
     & .header__links {
@@ -106,7 +107,7 @@ body {
         }
 
         & .header__link {
-            font-size: var(--secheadline);
+            font-size: var(--subheading);
         }
 
         & .header__toggle {
@@ -173,7 +174,7 @@ body {
     }
 
     & .hero__heading {
-        font-size: var(--headline);
+        font-size: var(--heading);
         color: var(--text-hero);
         text-align: center;
         padding-inline: 0.5rem;
@@ -202,13 +203,21 @@ body {
     box-shadow: var(--shadow);
 
     & .service__title {
-        font-size: var(--secheadline);
+        font-size: var(--subheading);
         font-weight: 700;
         color: var(--text);
     }
 
     & .service__desc {
         color: var(--text-muted);
+        font-weight: 400;
+        font-size: var(--body);
+    }
+
+    & .service__price {
+        font-size: var(--highlight);
+        font-weight: 700;
+        color: var(--text);
     }
 
     & .service__btn {
@@ -217,7 +226,7 @@ body {
         background-color: var(--primary-color);
         font-size: var(--body);
         text-decoration: none;
-        font-weight: 600;
+        font-weight: 400;
         border-radius: var(--border-radius);
         border: none;
         cursor: pointer;
