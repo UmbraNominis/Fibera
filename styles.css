@@ -210,14 +210,22 @@ body {
 
     & .service__desc {
         color: var(--text-muted);
-        font-weight: 400;
         font-size: var(--body);
+    }
+
+    & .service__desc-icon {
+        fill: white;
+        width: var(--body);
+        height: auto;
+        vertical-align: middle;
     }
 
     & .service__price {
         font-size: var(--highlight);
-        font-weight: 700;
         color: var(--text);
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: -1rem;
     }
 
     & .service__btn {
@@ -226,11 +234,17 @@ body {
         background-color: var(--primary-color);
         font-size: var(--body);
         text-decoration: none;
-        font-weight: 400;
         border-radius: var(--border-radius);
         border: none;
         cursor: pointer;
         box-shadow: var(--shadow);
+    }
+
+    & .service__btn-icon {
+        fill: white;
+        width: var(--body);
+        height: auto;
+        vertical-align: middle;
     }
 }
 
