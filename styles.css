@@ -214,7 +214,7 @@ body {
     }
 
     & .service__desc-icon {
-        fill: white;
+        fill: var(--text);
         width: var(--body);
         height: auto;
         vertical-align: middle;
@@ -241,7 +241,7 @@ body {
     }
 
     & .service__btn-icon {
-        fill: white;
+        fill: var(--text);
         width: var(--body);
         height: auto;
         vertical-align: middle;
